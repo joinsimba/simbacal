@@ -1,5 +1,5 @@
 {
-  "name": "simbatime",
+  "name": "simbacal",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
