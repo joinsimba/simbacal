@@ -1,0 +1,5 @@
+# Example GitPod configuration. You will need to adjust this for the different processes you run 
+# during development
+
+image:
+  file: .gitpod.Dockerfile
