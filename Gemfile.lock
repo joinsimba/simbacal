@@ -63,6 +63,10 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
+    babel-source (5.8.35)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.7.6)
@@ -89,6 +93,7 @@ GEM
       warden (~> 1.2.3)
     docile (1.4.0)
     erubi (1.10.0)
+    execjs (2.8.1)
     ffi (1.15.3)
     globalid (0.5.1)
       activesupport (>= 5.0)
@@ -167,6 +172,12 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    react-rails (2.6.1)
+      babel-transpiler (>= 0.7.0)
+      connection_pool
+      execjs
+      railties (>= 3.2)
+      tilt
     redis (4.4.0)
     regexp_parser (2.1.1)
     responders (3.0.1)
@@ -270,6 +281,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4)
+  react-rails
   redis (~> 4.0)
   sass-rails (>= 6)
   selenium-webdriver
