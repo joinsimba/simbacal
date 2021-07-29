@@ -1,4 +1,7 @@
 <a href="https://codeclimate.com/github/joinsimba/simbacal/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1ef066e41436e6b2fbc/maintainability" /></a>
+[![GitHub license](https://img.shields.io/github/license/joinsimba/simbacal.svg)](https://github.com/joinsimba/simbacal/blob/master/LICENSE)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 
 ## Development Setup
 
