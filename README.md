@@ -8,3 +8,11 @@
 2. Open this link: https://gitpod.io/#https://github.com/joinsimba/simbacal
 3. Wait until the installation is finished (check the first terminal tab, it can take up to 5 minutes)
 4. Start working 🎉
+
+## Production Deployment
+1. Copy this URL and paste it into your browser, then change the GitHub URL to point to your **private repository**.
+2. Copy your `config/master.key` and add it to the Heroku setup form
+
+```
+https://dashboard.heroku.com/new?template=https://github.com/joinsimba/simbacal
+```
