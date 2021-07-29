@@ -57,17 +57,15 @@ jobs:
         run: bundle exec standardrb
 
       - name: Run tests
-        uses: paambaati/codeclimate-action@v2.7.5
         env:
           DATABASE_URL: postgres://postgres:password@localhost:5432/test
           REDIS_URL: redis://localhost:6379/0
           RAILS_ENV: test
           PG_USER: postgres
           CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
-        with: 
-          coverageCommand: |
-            bin/rails db:test:prepare
-            bin/rails test
+        run: |
+          bin/rails db:test:prepare
+          bin/rails test
 
       # - name: Test & publish code coverage
       #  uses: paambaati/codeclimate-action@v2.7.5
