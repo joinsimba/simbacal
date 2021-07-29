@@ -11,6 +11,7 @@
 4. Start working 🎉
 
 ## Production Deployment
+
 1. Copy this URL and paste it into your browser, then change the GitHub URL to point to **your repository**.
 2. Copy your `config/credentials/production.key` and add it as the `RAILS_MASTER_KEY` to the Heroku setup form
 3. Click on "Deploy app" 🚀

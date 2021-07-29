@@ -1,4 +1,4 @@
-# Example GitPod configuration. You will need to adjust this for the different processes you run 
+# Example GitPod configuration. You will need to adjust this for the different processes you run
 # during development
 
 image:
@@ -12,7 +12,7 @@ ports:
   - port: 5432
     onOpen: ignore
 
-tasks: 
+tasks:
   - name: Install
     init: >
       gem update bundler && 
