@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "standard.autoFixOnSave": true,
+  "ruby.useBundler": true,
+  "ruby.pathToBundler": "/usr/local/bin/bundle",
+  "ruby.codeCompletion": "rcodetools"
+}

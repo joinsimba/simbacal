@@ -1,6 +1,3 @@
-# Example GitPod configuration. You will need to adjust this for the different processes you run
-# during development
-
 image:
   file: .gitpod.Dockerfile
 
@@ -8,7 +5,7 @@ ports:
   # Rails server
   - port: 3000
     onOpen: open-preview
-  # PostgreSQL server
+# PostgreSQL server
   - port: 5432
     onOpen: ignore
 
@@ -33,3 +30,10 @@ tasks:
   - name: Sidekiq
     init: gp sync-await install
     command: sidekiq
+
+vscode:
+  extensions:
+    - standard.vscode-standard
+    - eamodio.gitlens
+    - rebornix.ruby
+    - vense.rails-snippets

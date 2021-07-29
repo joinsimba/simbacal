@@ -15,5 +15,8 @@
     "prettier-standard": "^16.4.1",
     "standard": "*",
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "format": "prettier-standard --format"
   }
 }
