@@ -70,6 +70,7 @@ jobs:
         uses: paambaati/codeclimate-action@v2.7.5
         env:
           CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+        command: ./tmp/cc-test-reporter format-coverage -t simplecov -o tmp/codeclimate.backend.json coverage/backend/.resultset.json
       #- name: Upload coverage results
       #  uses: actions/upload-artifact@master
       #  if: always()
