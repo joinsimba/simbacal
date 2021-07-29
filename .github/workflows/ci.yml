@@ -71,7 +71,7 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
         with:
-          coverageCommand: ./tmp/cc-test-reporter format-coverage -t simplecov -o tmp/codeclimate.backend.json coverage/backend/.resultset.json
+          coverageCommand: bundle exec simplecov
       #- name: Upload coverage results
       #  uses: actions/upload-artifact@master
       #  if: always()
