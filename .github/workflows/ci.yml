@@ -66,9 +66,13 @@ jobs:
           bin/rails db:test:prepare
           bin/rails test
 
-      - name: Upload coverage results
-        uses: actions/upload-artifact@master
-        if: always()
-        with:
-          name: coverage-report
-          path: coverage
+      - name: Test & publish code coverage
+        uses: paambaati/codeclimate-action@v2.7.5
+        env:
+          CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+      #- name: Upload coverage results
+      #  uses: actions/upload-artifact@master
+      #  if: always()
+      #  with:
+      #    name: coverage-report
+      #    path: coverage
