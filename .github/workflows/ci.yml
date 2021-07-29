@@ -53,6 +53,9 @@ jobs:
         run: |
           yarn install --frozen-lockfile
 
+      - name: StandardJs Check
+        run: yarn run standard
+
       - name: Standardrb Check
         run: bundle exec standardrb
 
