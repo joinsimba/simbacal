@@ -11,7 +11,7 @@
 
 ## Production Deployment
 1. Copy this URL and paste it into your browser, then change the GitHub URL to point to your **private repository**.
-2. Copy your `config/master.key` and add it to the Heroku setup form
+2. Copy your `config/credentials/production.key` and add it as the `RAILS_MASTER_KEY` to the Heroku setup form
 
 ```
 https://dashboard.heroku.com/new?template=https://github.com/joinsimba/simbacal
