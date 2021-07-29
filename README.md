@@ -1,24 +1,6 @@
-# README
+## Development Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Register at <a href="https://gitpod.io" target="_blank">gitpod.io</a>
+2. Open this link: <a href="https://gitpod.io/#https://github.com/joinsimba/simbacal" target="_blank">https://gitpod.io/#https://github.com/joinsimba/simbacal</a>
+3. Wait until installation is finished (check the first terminal tab, can take up to 5 minutes)
+4. Start working 🎉
