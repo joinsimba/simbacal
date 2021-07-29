@@ -62,16 +62,17 @@ jobs:
           REDIS_URL: redis://localhost:6379/0
           RAILS_ENV: test
           PG_USER: postgres
+          CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
         run: |
           bin/rails db:test:prepare
           bin/rails test
 
-      - name: Test & publish code coverage
-        uses: paambaati/codeclimate-action@v2.7.5
-        env:
-          CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
-        with:
-          coverageCommand: bundle exec simplecov
+      # - name: Test & publish code coverage
+      #  uses: paambaati/codeclimate-action@v2.7.5
+      #  env:
+      #    CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+      #  with:
+      #    coverageCommand: bundle exec simplecov
       #- name: Upload coverage results
       #  uses: actions/upload-artifact@master
       #  if: always()
