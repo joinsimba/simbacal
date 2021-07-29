@@ -1,5 +1,4 @@
 <a href="https://codeclimate.com/github/joinsimba/simbacal/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1ef066e41436e6b2fbc/maintainability" /></a>
-<a href="https://codeclimate.com/github/joinsimba/simbacal/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b1ef066e41436e6b2fbc/test_coverage" /></a>
 
 ## Development Setup
 
