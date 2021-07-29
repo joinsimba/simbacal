@@ -56,13 +56,6 @@ jobs:
       - name: Standardrb Check
         run: bundle exec standardrb
 
-      # code climate code coverage setup
-      #- name: Setup Code Climate test-reporter
-      #  run: |
-      #    curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-      #    chmod +x ./cc-test-reporter
-      #    ./cc-test-reporter before-build
-
       - name: Run tests
         env:
           DATABASE_URL: postgres://postgres:password@localhost:5432/test
@@ -72,12 +65,6 @@ jobs:
         run: |
           bin/rails db:test:prepare
           bin/rails test
-
-      # code climate code coverage after tests
-      #- name: Publish code coverage
-      #  run: |
-      #    export GIT_BRANCH="${GITHUB_REF/refs\/heads\//}"
-      #    ./cc-test-reporter after-build -r ${{secrets.CC_TEST_REPORTER_ID}} --debug
 
       - name: Upload coverage results
         uses: actions/upload-artifact@master
