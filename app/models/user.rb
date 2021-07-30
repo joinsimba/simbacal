@@ -6,4 +6,8 @@ class User < ApplicationRecord
     :confirmable
 
   belongs_to :account
+
+  def testy(a)
+    1 + a
+  end
 end
