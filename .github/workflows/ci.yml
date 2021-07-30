@@ -10,7 +10,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    service:
+    services:
       postgres:
         image: postgres:13
         env:
