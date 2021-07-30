@@ -1,0 +1,9 @@
+#! /usr/bin/bash
+
+# ask for github user info and save to variables
+read -p 'Enter your GitHub user email: ' github_user_email
+read -p 'Enter your GitHub user name: ' github_user_name
+
+# set github user info from variables
+git config --global user.email $github_user_email
+git config --global user.name $github_user_name
