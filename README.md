@@ -17,7 +17,8 @@
     <br />
     <a href="https://joinsimba.com"><strong>Learn more »</strong></a>
   </p>
-   <br />
+  <br />
+  <br />
 </p>
 
 ## Development Setup
