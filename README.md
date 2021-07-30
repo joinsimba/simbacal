@@ -1,7 +1,25 @@
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![GitHub license](https://img.shields.io/github/license/joinsimba/simbacal.svg)](https://github.com/joinsimba/simbacal/blob/master/LICENSE)
 ![example workflow](https://github.com/joinsimba/simbacal/actions/workflows/ci.yml/badge.svg)
-<a href="https://codeclimate.com/github/joinsimba/simbacal/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1ef066e41436e6b2fbc/maintainability" /></a>
+<a href="https://codeclimate.com/github/joinsimba/simbacal/maintainability"><img src="https://api.codeclimate.com/v1/badges/b1ef066e41436e6b2fbc/maintainability" />
+</div>
+<p align="center">
+  <br />
+  <h1 align="center">
+     <a href="https://joinsimba.com">
+      <img src="https://uploads-ssl.webflow.com/60e06a890b9d71d1c24885c2/60e1cd6871e8110443af71f5_simba%20(2).svg" alt="Logo" width="100">
+    </a>
+   </h1>
+  <p align="center">
+    <strong>Simbacal</strong>
+    <br />
+    An open source project developed by Africa's top tech talent.
+    <br />
+    <a href="https://joinsimba.com"><strong>Learn more »</strong></a>
+  </p>
+  <br />
+  <br />
+</p>
 
 ## Development Setup
 
