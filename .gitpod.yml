@@ -14,7 +14,6 @@ tasks:
     init: >
       gem update bundler && 
       bundle install &&
-      bundle exec rails webpacker:install &&
       yarn install --check-files &&
       rails db:setup &&
       rails db:test:prepare &&
