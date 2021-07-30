@@ -13,7 +13,7 @@
   <p align="center">
     <strong>Simbacal</strong>
     <br />
-    An Open Source Project developed by Africa's top tech talent.
+    An open source project developed by Africa's top tech talent.
     <br />
     <a href="https://joinsimba.com"><strong>Learn more »</strong></a>
   </p>
