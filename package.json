@@ -29,6 +29,12 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-essentials": "^6.3.6",
+    "@storybook/addon-links": "^6.3.6",
+    "@storybook/react": "^6.3.6",
+    "babel-loader": "^8.2.2",
     "standard": "*",
     "webpack-dev-server": "^3.11.2"
   },
@@ -36,6 +42,8 @@
     "dev": "bin/webpack-dev-server",
     "lint:js": "standard",
     "lint:rb": "bundle exec standardrb",
-    "lint:fix": "standard --fix && bundle exec standardrb --fix"
+    "lint:fix": "standard --fix && bundle exec standardrb --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
