@@ -11,7 +11,7 @@
     </a>
    </h1>
   <p align="center">
-    <strong>Simbacal</strong>
+    <strong>Simba Suite</strong>
     <br />
     An open source project developed by Africa's top tech talent.
     <br />
@@ -35,5 +35,5 @@
 3. Click on "Deploy app" 🚀
 
 ```
-https://dashboard.heroku.com/new?template=https://github.com/joinsimba/simbacal
+https://dashboard.heroku.com/new?template=https://github.com/joinsimba/simbasuite
 ```
